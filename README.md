@@ -1,7 +1,7 @@
 # EmoteML
 
 This is an implementation of an attention-based model that analyzes speech-to-text data from Twitch TV live chat to perform sentiment analysis and emote prediction.
-PDF explanation for this project: https://github.com/bunnythecat/EmoteML/blob/main/Sentiment_Analysis_with_Emotes_using_Attention_Based_Neural_Networks.pdf
+[Paper explaining this project]Sentiment_Analysis_with_Emotes_using_Attention_Based_Neural_Networks.pdf
 #### Data Acquiring and Processing
 Due to various difficulties dealing with speech-to-text, subtitles from Youtube were used as the input corpus. Subtitles of five YouTube videos of past streams of the famous streamer Félix Lengyel (xQc) and Twitch live chat text data were obtained for training data generation.
 
