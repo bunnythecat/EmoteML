@@ -1,10 +1,9 @@
 # EmoteML
-A project analyzing Twitch TV live chat data
 
-This is the code to perform sentiment analysis and emote prediction on the speech-to-text data from Twitch TV live chat.
+This is an implementation of an attention-based model that analyzes speech-to-text data from Twitch TV live chat to perform sentiment analysis and emote prediction.
 
 #### Data Acquiring and Processing
-The subtitles of five YouTube videos of past streams and Twitch chat text data were obtained to generate training data. 
+Due to various difficulties dealing with speech-to-text, subtitles from Youtube were used as the input corpus. Subtitles of five YouTube videos of past streams of the famous streamer Félix Lengyel (xQc) and Twitch live chat text data were obtained for training data generation. 
 gen_data.py processes the Twitch chat data to determine which emote was frequently sent by the viewers during that period 
 of time to determine the target emote. 
 Then we traced back the subtitles before that period of time in the srt file to determine the input text for the training data.
