@@ -1,7 +1,7 @@
 # EmoteML
 
 This is an implementation of an attention-based model that analyzes speech-to-text data from Twitch TV live chat to perform sentiment analysis and emote prediction.
-[Paper explaining this project]Sentiment_Analysis_with_Emotes_using_Attention_Based_Neural_Networks.pdf
+[Paper explaining this project](Sentiment_Analysis_with_Emotes_using_Attention_Based_Neural_Networks.pdf)
 #### Data Acquiring and Processing
 Due to various difficulties dealing with speech-to-text, subtitles from Youtube were used as the input corpus. Subtitles of five YouTube videos of past streams of the famous streamer Félix Lengyel (xQc) and Twitch live chat text data were obtained for training data generation.
 
@@ -13,13 +13,12 @@ cv_split.py merges all the training sets into a single training set and performs
 
 Here is an example of the training data:
 
-"today i received an insane nft sponsor offer and the amounts are astronomical one", "BatChest"
+"Today I received an insane NFT sponsor offer and the amounts are astronomical one", "BatChest"
 
 #### Model and Training
 lib/transformer.py contains the model architecture which is inspired by https://www.tensorflow.org/text/tutorials/transformer.
 
 Pretrained Word2vec embeddings were downloaded from https://wikipedia2vec.github.io/wikipedia2vec/pretrained/.
-Gensim package (https://radimrehurek.com/gensim/) was used to load the pre-trained Word2vec embeddings.
 
 emote_class.py performs the training and predicts the test results from the soft voting of the 4 cross-validation splits.
 
