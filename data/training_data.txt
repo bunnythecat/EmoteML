@@ -1,0 +1,7 @@
+['allstar.p', 'anti-vaxxers.p', 'cars.p', 'dream_art.p', 'embedding_matrix.p', 'nasa.p']
+Total number of samples 4966
+Data size  1846
+Vocabulary size  3100
+Max sequence length  31
+1476 Training sequences
+370 Validation sequences
