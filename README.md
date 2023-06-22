@@ -25,3 +25,6 @@ emote_class.py performs the training and predicts the test results from the soft
 
 #### Results
 test_result.csv shows the 30 test samples and the target emote predicted by the model.
+
+#### Future Ideas
+- [ ] implement other models such as FastFormer
