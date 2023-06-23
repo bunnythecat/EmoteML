@@ -23,7 +23,7 @@ Pretrained Word2vec embeddings were downloaded from https://wikipedia2vec.github
 emote_class.py performs the training and predicts the test results from the soft voting of the 4 cross-validation splits.
 
 #### Results
-test_result.csv shows the 30 test samples and the target emote predicted by the model.
+test_result.csv shows the 30 test samples and the target emote predicted by the model. For further details please find in the discussion section in the [Paper](Sentiment_Analysis_with_Emotes_using_Attention_Based_Neural_Networks.pdf).
 
 #### Future Ideas
 - [ ] implement other models such as FastFormer
